@@ -6,3 +6,13 @@ git commit -m "added files to branch"
 git switch main
 git branch
 git push -u origin main 
+
+git clone https://github.com/RaffayIrfan/GroupRafays-pythonproject.git
+cd GroupRafays-pythonproject
+git branch temp
+git checkout temp
+git add .
+git commit -m "Added guess_the_number game function"
+git checkout main
+git merge temp
+git push origin main
